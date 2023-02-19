@@ -58,7 +58,7 @@ class _TestPageState extends State<TestPage> {
                   context: context,
                   builder: (BuildContext context) => AlertDialog(
                     title: const Text('Your resultats'),
-                    content: const Text(''),
+                    content: Text(' correct - $correctansw,wrong - $wrongansw'),
                     actions: [
                       TextButton(
                           onPressed: () {
